@@ -1,0 +1,132 @@
+@import url("https://fonts.gooogleapis.com/css2?family=Heebo:wght@100;200;300&amp;display=swap");
+@import url('https://fontlibrary.org//face/glacial-indifference');
+
+body{
+    height:100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background: #111;
+    font-size: 1.3em;
+    background: #362100 url("https://images6.alphacoders.com/118/1186220.jpg");
+}
+
+figure {
+    align-items: center;
+    padding: 10px;
+}
+
+h2 input, a {
+    color: #fff;
+}
+
+
+ .login {
+    width: 350px;
+    height:150%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+    z-index: 10;
+ }
+
+ h2 {
+    font-size: 2em;
+    margin: -10px;
+ }
+
+input {
+    width: 100%;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    padding:0 12px;
+    box-sizing: border-box;
+    background: transparent;
+    font-size: 1.2em;
+    box-shadow: none;
+    outline: none;
+    align-self: auto;
+ }
+input [type="submit"] {
+    position: absolute;
+    width: 160%;
+    background-color: #fff;
+    border:none;
+    cursor:pointer;
+}
+
+input::placeholder {
+    color: rgba(255,255,255,0.75);
+}
+
+.links {
+    width: 80%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+}
+
+a {
+    text-decoration: none;
+    align-items: center;
+    position: relative;
+}
+
+.scene {
+    position: relative;
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: center;
+}
+
+.card {
+  max-width: 410px;  
+  color: white;
+  background: #fefefe13;
+  backdrop-filter:  blur(10px);
+  border-radius: 30px;
+  box-shadow: 0 10px 35px 0 #362100a6;
+  overflow: hidden;
+  padding: 20px 30px 50px 30px;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.figure {
+    height: auto;
+    margin: 0 auto;
+    max-width: 225px;
+    width: 60%;
+}
+
+.image {
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.input {
+    width: 100%;
+    background: #fefefe13;
+    border: 1px solid #fefefe4d;
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    padding: 20px;
+}
+
+.input:focus {
+    background: black;
+} 
